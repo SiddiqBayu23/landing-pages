@@ -1,0 +1,307 @@
+/*--------------------------------------------------------------
+# Awal navbar
+--------------------------------------------------------------*/
+*{
+  margin : 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #eff4fd;
+}
+
+nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover{
+  color:silver;
+}
+
+/*--------------------------------------------------------------
+# Akhir navbar
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Hero Banner
+--------------------------------------------------------------*/
+
+.hero-banner {
+position: relative;
+text-align: center;
+color: #fff;
+height: 400px;
+}
+
+.hero-banner img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+filter: brightness(50%);
+}
+
+
+.hero-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.hero-text p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.hero-text button {
+background-color: #e91515;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 18px;
+cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about-us {
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+padding: 200px;
+background-color: #eff4fd;
+}
+
+.about-us-text {
+width: 50%;
+}
+
+.about-us-text h1 {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 20px;
+
+}
+
+.about-us-text h2 {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 20px;
+Line-height: 1.5;
+color: #779B58;
+
+}
+
+.about-us-text p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+.about-us-image {
+width: 50%;
+text-align: center;
+}
+
+.about-us-image img {
+max-width: 30%;
+height: auto;
+}
+
+/* Fokus Project */
+.main{
+background-color: #afc8f7;
+}
+
+.text{
+display: flex;
+justify-content: space-evenly;
+height: 500px;
+width: 100%;
+padding-top: 300px;
+}
+
+.text p{
+max-width: 30%;
+font-size: 1.3rem;
+letter-spacing: 1px;
+text-align: justify;
+font-weight: 70px;
+padding-top: 10px;
+}
+
+.text h1{
+font-size: 3rem;
+}
+
+span{
+color: #779B58;
+}
+
+.box{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 0px;
+position: relative;
+bottom: 200px;
+}
+
+.box .cart{
+width: 500px;
+height:250px;
+background-color: #779B58;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 0px;
+gap: 24px;
+cursor: pointer;  
+}
+
+.cart h6{
+width: 219px;
+height: 20px;
+letter-spacing: -0.001em;
+font-family: 'Open Sans',sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 23px;
+line-height: 20px;
+flex: none;
+flex-grow: 0;
+}
+
+.cart img{
+width: 200px;
+height: 200px;
+}
+
+/* contact */
+#contact {
+width: 100%;
+height: 400px;
+background-color: white;
+position: relative;
+}
+
+#contact h3 {
+text-align: center;
+font-size: 3rem;
+padding: 1rem 0 2rem 0;
+}
+
+#contact form {
+display: grid;
+width: 10vw;
+position: absolute;
+left: 40%;
+}
+
+#contact form input {
+padding: 5px 5px;
+margin-bottom: 15px;
+width: 300px;
+}
+
+#contact form button {
+margin-bottom: 10px;
+width: 100px;
+}
+
+#contact form label {
+width: 300px;
+text-align: justify;
+}
+
+form #status {
+position: relative;
+top: -15px;
+right:-120px;
+}
+
+/* footer */
+footer {
+background-color: #222;
+color: #fff;
+padding: 40px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+
+.col-md-3 {
+width: 25%;
+}
+
+h4 {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+a {
+color: #fff;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.fa {
+margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+.col-md-3 {
+  width: 50%;
+}
+}
